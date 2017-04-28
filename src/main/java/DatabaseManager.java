@@ -16,9 +16,9 @@ public class DatabaseManager {
     private static final String DB_USER = "postgres";
     private static final String DB_PASS = "";
 
-    public static final int SELECT_LIMIT = 20000;
+    public static final int SELECT_LIMIT = 1000;
 
-    private final String SELECT_POSTS = "select id, content from posts";
+    private final String SELECT_POSTS = "select id, content from posts order by id";
 
 
     public Connection createDatabaseConnection() {

@@ -1,0 +1,7 @@
+za pomoca for /D %i in (*.*) do start python %i/run.py odpalamy wiele instancji serwerow pythona,
+za pomoca Compundu w intelij ("Naraz") puszczamy wiele Mainów
+
+938298 bylo postow, duzo duplikatow zapuscilem kod do ich usuwania
+
+!!!!!!!!!jak uruhcomie wiecej niz 1 server to wyniki zwraca takie same wszedzie
+

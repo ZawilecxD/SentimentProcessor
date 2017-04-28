@@ -17,6 +17,11 @@ import java.util.List;
 public class ApiConnector {
     private final String USER_AGENT = "Mozilla/5.0";
     private final String URL = "http://localhost:80/web/text/";
+    private int port;
+
+    public ApiConnector(int port) {
+        this.port = port;
+    }
 
     public void postText(Post postObj) {
         try {
@@ -45,4 +50,11 @@ public class ApiConnector {
     }
 
 
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
+    }
 }
